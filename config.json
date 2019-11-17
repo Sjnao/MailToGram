@@ -1,0 +1,14 @@
+{
+  "mail": {
+    "org": "@gmail.com",
+    "from": "mymail",
+    "pwd": "mypassword",
+    "smtp": {
+      "server": "imap.gmail.com",
+      "port": 993
+    }
+  },
+  "bot": {
+    "token": "mytoken"
+  }
+}
