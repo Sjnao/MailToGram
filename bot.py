@@ -48,7 +48,7 @@ class Bot:
         msgs = self.mail_reader.get_unseen_mail()
         job = context.job
         for msg in msgs:
-            context.bot.send_message(job.context, text=msg.decode())
+            context.bot.send_message(job.context, text=msg)
 
     def _set_timer(self, update, context):
         """Add a job to the queue."""
